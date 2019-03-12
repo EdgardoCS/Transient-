@@ -1,0 +1,109 @@
+{
+    "id": "barrier",
+    "type": "circle",
+    "source": {
+        "type": "geojson",
+        "data": {
+            "type": "FeatureCollection",
+            "features": [{
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-71.5785801620622, -33.0418212802292]
+                },
+                "properties": {
+                    "name": "Barrera aarquitectonica",
+                    "id": "111",
+                    "typology": "Obstaculización de veredas",
+                    "subTypology": "Poste",
+                    "other": "",
+                }
+            }, {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-71.5741166584918, -33.0434942576785]
+                },
+                "properties": {
+                    "name": "Barrera arquitectonica",
+                    "id": "1",
+                    "typology": "obstaculización de veredas",
+                    "subTypology": "Poste",
+                    "other": "",
+                }
+            }, {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-71.574228762522, -33.0434567720786]
+                },
+                "properties": {
+                    "name": "Barrera arquitectonica",
+                    "id": "3",
+                    "typology": "Obstrucción de veredas",
+                    "subTypology": "Postel",
+                    "other": "",
+                }
+            }, {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-71.5740837523492, -33.043582552695]
+                },
+                "properties": {
+                    "name": "Barrera arquitectonica",
+                    "id": "5",
+                    "typology": "Obstaculización de veredas",
+                    "subTypology": "Desnivel",
+                    "other": "",
+              }
+            }, {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-71.5768337849278, -33.0426962984987]
+                },
+                "properties": {
+                    "name": "Barrera arquitectonica",
+                    "id": "50",
+                    "typology": "Obstaculización veredas",
+                    "subTypology": "Poste",
+                    "other": "",
+                }
+            }, {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-71.5768684055819, -33.0426433174073]
+                },
+                "properties": {
+                    "name": "Barrera arquitectonica",
+                    "id": "52",
+                    "typology": "Obstaculización de veredas",
+                    "subTypology": "Salida vehicular",
+                    "other": "",
+                }
+            }, {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-71.5767778926697, -33.0431405002802]
+                },
+                "properties": {
+                    "name": "Barrera arquitectonica",
+                    "id": "54",
+                    "typology": "Ostaculización de veredas",
+                    "subTypology": "Poste",
+                    "other": "",
+                }
+            }]
+        }
+    },
+    "layout": {
+        "visibility": "visible"
+    },
+    "paint": {
+        "circle-radius": 5,
+        "circle-color": "#F4511E"
+    }
+}

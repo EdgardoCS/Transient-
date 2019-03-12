@@ -58,6 +58,13 @@
 // lat2 = -71.610534;
 // lng1 = -33.044905;
 // lng2 = -33.044906;
+console.log("running"); 
+// test
+var lat1; 
+var lng1; 
+
+var lat2 = -71.578578;
+var lng2 = -33.041823;
 
 function getDistanceFromLatLonInKm(lat1, lat2, lng1, lng2) {
   var R = 6378137; // Radius of the earth in m
@@ -69,12 +76,12 @@ function getDistanceFromLatLonInKm(lat1, lat2, lng1, lng2) {
     Math.sin(dLng / 2) * Math.sin(dLng / 2);
   var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
   var d = R * c; // Distance in m
-  console.log("distance in meters: " + d)
+  //console.log("distance in meters: " + d)
   return d;
 }
 
 function deg2rad(deg) {
-  return deg * (Math.PI / 180)
+  return deg * (Math.PI / 180);
 }
 
-getDistanceFromLatLonInKm(lat1, lat2, lng1, lng2)
+getDistanceFromLatLonInKm(lat1, lat2, lng1, lng2);
