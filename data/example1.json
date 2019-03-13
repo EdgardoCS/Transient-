@@ -1,0 +1,1606 @@
+{
+    "id": "Organizaciones sociales",
+    "features": [{
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Cerro Alegre Parte Baja"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.043240500000,-71.629306200000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Cerro Alegre Parte Alta"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.052011500000,-71.637322600000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Poblacion Lautaro"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.053527100000,-71.636788700000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Paraisos y Anexos"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.044493300000,-71.594486600000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Arratia "
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.044392100000,-71.600023800000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Ercilla y Anexos"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.041972700000,-71.595177400000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Juan Llona y El Pilar"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.048020900000,-71.592089400000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Santa Rosa De Rodelillo"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.062218300000,-71.572028300000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Cerro Bellavista"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.049309100000,-71.621826500000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Cerro La Carcel Parte Alta"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.051890800000,-71.634818300000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Cerro Concepcion"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.041888774374,-71.626782417297]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Poblacion Manuel Montt"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.040937500000,-71.642158400000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Cordillera Parte Baja"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.038725680878,-71.631025671959]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Cordillera Central"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.043092900000,-71.637264600000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Cañeria y Adyacentes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.045342300000,-71.642037300000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Poblacion San Martin"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.049214600000,-71.644003800000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Villagran Bajo"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.045255300000,-71.638387300000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Montedonico y Lautaro"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.059117600000,-71.640243100000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos La Amistad "
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.040036900000,-71.633097400000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Cerro Delicias"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.052836462327,-71.589725017548]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Poblacion Napoli Cerro El Litre"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.056958800000,-71.610658800000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Polacion Paz Cerro El Litre"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.057858600000,-71.611626100000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Rosso "
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.033251000000,-71.584922300000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Villa Berlin"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.046307616910,-71.575691699982]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Cerro Florida"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.052877200000,-71.621039800000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Tiro Al Blanco"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.058527500000,-71.614932400000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Cerro La Cruz"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.057153400000,-71.612625400000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Cerro La Cruz Parte Baja"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.052397600000,-71.611929900000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos El Vergel Alto Cerro La Cruz"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.065971600000,-71.610637200000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Poblacion Chile Nuevo"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.057266800000,-71.622156400000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Recreo y Rodriguez"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.047846045785,-71.596333980560]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Nuevos Horizontes"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.046362175696,-71.599667966366]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Los Lecheros"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.044473577607,-71.601698398590]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Sta Rosa Del Pajonal Y Caleuche"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.063115900000,-71.609233100000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Poblacion Año 1925"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.057909600000,-71.607372600000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Cerro Las Cañas Mejoreros"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.056087400000,-71.606938900000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Napoli Cerro Las Cañas"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.058640500000,-71.608802700000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos La  Obra "
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.056265400000,-71.618432600000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Cerro Mariposa"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.053390664825,-71.618392467499]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinsos Baldomero Castro"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.058742300000,-71.619875300000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos La Ruda "
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.061586600000,-71.620328600000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Cerro Pajonal"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.059154200000,-71.605322100000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Pasaje Casablanca"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.053449700000,-71.604041600000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Francisco Noguett"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.058119800000,-71.601665300000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Stella Maris"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.055608800000,-71.603096100000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Cerro Mesilla"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.034515700000,-71.636344900000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Cerro Miraflores"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.045056000000,-71.627886800000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Cerro Molino"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.052290000000,-71.598278200000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Cerro Monjas"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.051708200000,-71.615486800000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Cerro Las Monjas"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.054573800000,-71.616837400000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Cerro Perdices"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.036407900000,-71.636411100000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Ernesto Quiroz Weber "
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.037327800000,-71.596701400000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Cabriteria "
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.041631800000,-71.591243800000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Alfredo Paolinelli"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.040067400000,-71.591276700000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Placeres Central"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.042159000000,-71.582872000000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Cincel "
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.049164500000,-71.579992600000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Javiera Carrera"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.043061600000,-71.586571600000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Arturo Alessandri"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.047225900000,-71.583732000000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Santa Barbara-Hucke"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.046651757265,-71.579511165619]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos El Progreso "
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.052565500000,-71.568259300000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Heroes Del Mar"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.053363100000,-71.559858700000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Tegualda "
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.054005400000,-71.565510200000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Israel Roizblatt B"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.056661200000,-71.562107900000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Las Palmas I"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.059285300000,-71.561787000000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos La Laguna "
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.054441800000,-71.573099100000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Buque Escuela Esmeralda"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.053427800000,-71.559718500000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Trabajadores Unidos"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.042065400000,-71.586752200000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Presidente Patricio Aylwin "
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.056087400000,-71.606938900000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Monjas Bajo"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.050760300000,-71.614103400000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Torres de Mesana"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.066947445660,-71.628933548927]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Rene Lagos Y Rapa  Nui"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.062961800000,-71.618621200000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Lyon Edwards"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.046670900000,-71.636629100000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Cerro Esperanza"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.037559700000,-71.582893000000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Jose Miguel Carrera"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.039638900000,-71.583155800000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Cerro Polanco"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.048950200000,-71.597205800000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Poblacion Almirante Simpson"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.048225300000,-71.594986700000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Ramaditas Parte Baja"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.054910500000,-71.600122600000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Federico Costa Parte Alta "
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.056967300000,-71.598225400000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Ramaditas Cuesta Colorada"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.064056000000,-71.597357000000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Esmeralda "
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.040765500000,-71.626232700000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Esfuerzo Y Progreso"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.055817800000,-71.599582900000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Colo Colo "
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.060318000000,-71.594701900000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Pablo Neruda"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.068952500000,-71.593771200000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos San Roque "
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.065248700000,-71.584963200000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Gabriela Mistral"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.066082000000,-71.587344800000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Mc Clelland "
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.062959400000,-71.586601200000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Pequeña Industria"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.063174309104,-71.596183776855]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Cerro Santo Domingo"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.034618800000,-71.635114400000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Poblacion Marquez"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.034780500000,-71.632739600000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Cerro Toro "
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.038292900000,-71.635791400000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Almte Basilio Rojas"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.056920000000,-71.626982700000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Etchegaray "
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.054754500000,-71.627276600000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Cerro Yungay"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.053049200000,-71.624730800000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos  Miguel Angel"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.057088500000,-71.626691300000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Rita Otaegui Bajo"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.054284400000,-71.626257100000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Ramon Carnicer"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.057961000000,-71.577544400000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Poblacion Central"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.059583600000,-71.562075800000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Altos De Rodelillo"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.064312600000,-71.565505600000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Comunidades Unidas De Rodelillo"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.048774857047,-71.587504148483]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos San Jorge "
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.068625900000,-71.591793900000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Pocuro "
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.055421500000,-71.605469800000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Santa Rita "
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.056851100000,-71.628157800000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Poblacion 18 De Septiembre"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.055131600000,-71.629272600000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Camino Quebrada Verde Poblacion Valencia"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.039613100000,-71.638447300000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Poblacion Valencia Sur"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.038357400000,-71.639098100000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Poblacion Valencia"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.037008900000,-71.640672200000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Porvenir Bajo"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.032785600000,-71.653091600000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Poblacion Marina Mercante"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.040431200000,-71.645486000000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Elemental "
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.040589100000,-71.653373600000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos 4° Sector Corvi Servicio Seguro Social"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.049783600000,-71.649816600000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Poblacion Chile"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.042172356035,-71.580305099487]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Joaquin Lepeley"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.058074000000,-71.641279600000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Unidad Vecinal Pablo Neruda "
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.059157200000,-71.640144500000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Santa Teresa De Rodelillo"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.065088500000,-71.569867500000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos El Huilmo "
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.056583600000,-71.567184800000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Cabriteria Poniente"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.054441800000,-71.573099100000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Paraiso Bajo"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.045061000000,-71.593723800000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos La Virgen "
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.056976900000,-71.603495000000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Almirante Latorre"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.062961800000,-71.618621200000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Poblacion Lord Cochrane"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.049146659838,-71.627927049994]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Cerro Jimenez"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.055180600000,-71.633481100000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Alejandro Tinsley"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.045762859335,-71.633547786623]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Arturo Prat – Sudamericana"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.050264500000,-71.595191900000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Puertas Negras"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.056897600000,-71.644913600000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Maria Eislers"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.042575500000,-71.583534700000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Central Ohiggins"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.057537100000,-71.595571700000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Chaparro Y Cordillera Alto"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.047751100000,-71.640889900000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Rio Frio "
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.030185200000,-71.642477700000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Jorge Washington"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.062976500000,-71.593011600000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Avenida Argentina"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.047481200000,-71.602788400000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Barrio Puerto"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.036415104101,-71.630360484123]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Valle Verde "
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.054109000000,-71.644346600000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Alemania Federal"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.052863100000,-71.651375800000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Igualdad Y Fraternidad"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.052795100000,-71.577345900000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Nueva Victoria Sur"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.053760000000,-71.581219600000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Poblacion La Isla"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.079616600000,-71.585288600000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Aurora De Rodelillo"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.063221700000,-71.569178900000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Jardines De Rodelillo"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.058354200000,-71.572595600000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Lomas De Rodelillo"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.065241800000,-71.565205800000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Mapue"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.060620346051,-71.559512615204]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Villa Manuel Rodriguez"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.072360700000,-71.582543800000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Poblacion El Molino"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.053952000000,-71.647726600000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Luis Bahamondez Alvear"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.065598600000,-71.571874600000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Israel Roizblatt"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.056123200000,-71.563151700000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Las Palmas Ii Bajo"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.058000500000,-71.563610300000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Nueva Alborada"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.048162601611,-71.655085086823]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Union y Progreso"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.049922800000,-71.649169900000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Almendral"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.044273500000,-71.606382700000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Independencia"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.050400200000,-71.606270500000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Parque Italia"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.048371500000,-71.612721600000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos La Planchada"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.059946200000,-71.578031200000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Aguas Buenas"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.114504170699,-71.567795276642]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Centro Cultural Placilla"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.110392683515,-71.571722030640]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Movimiento Defensa Parques Barrio O&#039;Higgins"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.058652812040,-71.591849327087]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Áncora"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.047705400000,-71.627937000000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Central Poniente"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.038058300000,-71.596135600000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Club Deportes Cordillera Basquetbol "
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.038886900000,-71.630789000000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos El Alamo"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.044855600000,-71.649137600000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos El Libertador Simón Bolívar"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.049781300000,-71.651137900000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Arturo Prat"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.030256500000,-71.636071100000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Las Habas y el Membrillo"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.023891200000,-71.633493000000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Alcalde Barrios y A. Mallet"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.026146600000,-71.643807200000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos San Marco"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.032236700000,-71.647933400000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Cuarto Sector CORVI El Triunfo"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.046872500000,-71.649718800000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Segundo Sector CORVI"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.044868600000,-71.651914600000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Playa Ancha Central"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.027957400000,-71.633559800000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Población Miramar y Pacifico Norte"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.033535900000,-71.645100200000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos John Kennedy"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.040830800000,-71.651026300000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos Empart"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.039350100000,-71.648107500000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Plan Cerro OCF"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.046566400000,-71.625630700000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Club  Deportivo La Cruz"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.057378100000,-71.612708300000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Patio volantín"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.047519400000,-71.626022000000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de vecino RECREO Y RODRIGUEZ\t"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.047550538423,-71.599067151546]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Junta de Vecinos &quot;Rapa Nui&quot;"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.064788500000,-71.577677900000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Mapa.valpo.net"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.042323842791,-71.625498645008]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Asociación de organizaciones por el patrimonio"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.047443000000,-71.626060200000]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "recuperación del borde Atkinson"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.042426450992,-71.625531204785]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "nombre": "Almacen.Los.Gallos.Cerro.Mesilla.Valparaiso"
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [-33.034205889924,-71.637397297467]
+        }
+    }]
+}

@@ -58,13 +58,40 @@
 // lat2 = -71.610534;
 // lng1 = -33.044905;
 // lng2 = -33.044906;
-console.log("running"); 
-// test
-var lat1; 
-var lng1; 
 
-var lat2 = -71.578578;
-var lng2 = -33.041823;
+const fs = require('fs')
+const fileContents = fs.readFileSync('./data/example2.json', 'utf8')
+
+try {
+  const data = JSON.parse(fileContents)
+  var features = data.source.data.features;
+} catch (err) {
+  console.error(err)
+}
+
+var lat1;
+var lng1;
+var link;
+var typo;
+var subtypo;
+// var lat2 = -71.577339;
+// var lng2 = -33.042782;
+
+// var lat2 = -71.5771;
+// var lng2 = -33.0432;
+
+var lat2 = -71.5741;
+var lng2 = -33.0435;
+
+for (let u in features) {
+  lat1 = features[u].geometry.coordinates[0];
+  lng1 = features[u].geometry.coordinates[1];
+  link = features[u].properties.image;
+  typo = features[u].properties.typology;
+  subtypo = features[u].properties.subTypology;
+  getDistanceFromLatLonInKm(lat1, lat2, lng1, lng2);
+
+}
 
 function getDistanceFromLatLonInKm(lat1, lat2, lng1, lng2) {
   var R = 6378137; // Radius of the earth in m
@@ -77,11 +104,21 @@ function getDistanceFromLatLonInKm(lat1, lat2, lng1, lng2) {
   var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
   var d = R * c; // Distance in m
   //console.log("distance in meters: " + d)
+
+  var comparation = 10;
+  var factor = comparation * 0.20;
+  var diference = comparation + factor;
+
+  if (d <= diference) {
+    console.log("match in: " + lat1 + "," + lng2 + " with " + lat2 + "," + lng2);
+    var realDistance = (d - (d * 0.10));
+    console.log("approximately distance: " + realDistance + "m");
+    console.log("type: " + typo + " subtype: " + subtypo);
+    console.log("here: " + link);
+  }
   return d;
 }
 
 function deg2rad(deg) {
   return deg * (Math.PI / 180);
 }
-
-getDistanceFromLatLonInKm(lat1, lat2, lng1, lng2);
