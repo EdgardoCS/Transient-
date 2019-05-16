@@ -12,7 +12,7 @@ for i in range(1, 300):
     index = i
     #path = './img/G02-%g.jpg' % index
     try:
-        path = '../../../capas_sistam/G09B/IMG/G09B-%g.jpg' % index
+        path = '../../../capas_sistam/G01/IMG/G01-%g.jpg' % index
         counter = 0
         try:
             image = Image.open(path)
@@ -25,7 +25,6 @@ for i in range(1, 300):
             print(exif)
 
             print('Orientation', exif['Orientation'])
-            #try:
 
             if exif['Orientation'] == 3:
                 image = image.rotate(180, expand=True)
