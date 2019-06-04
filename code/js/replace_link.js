@@ -1,12 +1,11 @@
 const fs = require('fs')
-const path = '/../../../capas_sistam/';
-// const file1 = fs.readFileSync(__dirname + path + 'G01/GEOJSON/G01_SECTORESPERANZA.geojson', 'utf8')
+// const path = '/../../../capas_sistam/';
 
-const file1 = fs.readFileSync('../../levantamiento.geojson', 'utf8')
-const file2 = fs.readFileSync('../../levantamiento_completo.json', 'utf8')
+const file1 = fs.readFileSync('../../data/geo/LEV_CAPAUNICA_CONSTRUCCION.geojson', 'utf8')
+const file2 = fs.readFileSync('../../data/geo/levantamiento_completo.json', 'utf8')
 
 save_file = function (data1) {
-    fs.writeFile("transversal.json", JSON.stringify(data1), function (err) {
+    fs.writeFile("../../data/geo/capa_transversal.json", JSON.stringify(data1), function (err) {
         if (err) {
             console.log(err);
         }
