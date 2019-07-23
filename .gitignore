@@ -1,9 +1,3 @@
 # ignore
-<<<<<<< HEAD
-
-data/
-
-node_modules
-=======
 data/geo
->>>>>>> e6b5c1977b2fc19060a8c9661c8f20cc12dd4279
+.idea
