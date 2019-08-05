@@ -264,6 +264,5 @@ if __name__ == '__main__':
             print('----------')
 
             myCollection.insert_one(data)
-            '''
-            '''
+
             time.sleep(0.33)
