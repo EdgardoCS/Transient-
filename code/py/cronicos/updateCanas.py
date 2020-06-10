@@ -17,7 +17,7 @@ if __name__ == '__main__':
 
     collection = db['personasContingencia']
 
-    path = os.path.join(Path('/home/ed/Downloads/PLANILLA  PSCV MARZO 2020 ACTUALIZADA.xls'))
+    path = os.path.join(Path('lasCanas.xls'))
     dataFrame = pd.read_excel(path, sheet_name='Sheet1')
 
     headers = dataFrame.columns

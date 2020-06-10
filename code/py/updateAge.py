@@ -20,6 +20,7 @@ if __name__ == '__main__':
 
     for u in collection.find():
         if u is not None:
+
             counter += 1
             dataDoc = u['pscv']['rut']
             dataAge = u['pscv']['edad']

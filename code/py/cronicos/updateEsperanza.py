@@ -17,7 +17,7 @@ if __name__ == '__main__':
 
     collection = db['personasContingencia']
 
-    path = os.path.join(Path('/home/ed/Downloads/PLANILLA CV ESPERANZA.xlsx'))
+    path = os.path.join(Path('/home/ed/Downloads/esperanza.xlsx'))
     dataFrame = pd.read_excel(path, sheet_name='Sheet1')
 
     headers = dataFrame.columns

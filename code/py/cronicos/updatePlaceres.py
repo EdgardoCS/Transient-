@@ -17,26 +17,26 @@ if __name__ == '__main__':
 
     collection = db['personasContingencia']
 
-    path = os.path.join(Path('/home/ed/Downloads/mena.xlsx'))
-    dataFrame = pd.read_excel(path, sheet_name='TARJETERO')
+    path = os.path.join(Path('/home/ed/Downloads/placeres.xlsx'))
+    dataFrame = pd.read_excel(path, sheet_name='Hoja2')
 
     headers = dataFrame.columns
 
     counter = 0
     totalCounter = 0
 
-    diabetes = None
-    hipertension = None
-    dislipidemia = None
-    tabaco = None
-    artrosis = None
-    parkinson = None
-    hipotiroidismo = None
-    epilepsia = None
-    glaucoma = None
+    diabetes = False
+    hipertension = False
+    dislipidemia = False
+    tabaco = False
+    artrosis = False
+    parkinson = False
+    hipotiroidismo = False
+    epilepsia = False
+    glaucoma = False
 
     for i in range(0, len(dataFrame)):
-        temp = dataFrame[headers[3]][i]
+        temp = dataFrame[headers[2]][i]
         if isinstance(temp, str):
             tempRut = temp.split('-')
 
@@ -54,60 +54,44 @@ if __name__ == '__main__':
                 counter += 1
 
                 'Diabetes Mellitus'
-                temp = dataFrame[headers[17]][i]
-                if isinstance(temp, np.int64) and temp == 1:
+                temp = dataFrame[headers[10]][i]
+                if isinstance(temp, str) and temp == 'DM':
                     diabetes = True
-                elif isinstance(temp, np.int64) and temp == 2:
-                    diabetes = False
 
                 'Hipertensión Arterial'
-                temp = dataFrame[headers[16]][i]
-                if isinstance(temp, np.int64) and temp == 1:
+                temp = dataFrame[headers[9]][i]
+                if isinstance(temp, str) and temp == 'HTA':
                     hipertension = True
-                elif isinstance(temp, np.int64) and temp == 2:
-                    hipertension = False
 
                 'Dislipidemia'
-                temp = dataFrame[headers[19]][i]
-                if isinstance(temp, np.int64) and temp == 1:
+                temp = dataFrame[headers[11]][i]
+                if isinstance(temp, str) and temp == 'DLP':
                     dislipidemia = True
-                elif isinstance(temp, np.int64) and temp == 2:
-                    dislipidemia = False
 
                 'Hipotiroidismo'
-                temp = dataFrame[headers[20]][i]
-                if isinstance(temp, np.int64) and temp == 1:
+                temp = dataFrame[headers[12]][i]
+                if isinstance(temp, str) and temp == 'HIPO':
                     hipotiroidismo = True
-                elif isinstance(temp, np.int64) and temp == 2:
-                    hipotiroidismo = False
 
                 'Artrosis'
-                temp = dataFrame[headers[23]][i]
-                if isinstance(temp, np.int64) and temp == 1:
+                temp = dataFrame[headers[15]][i]
+                if isinstance(temp, str) and temp == 'ARTROSIS':
                     artrosis = True
-                elif isinstance(temp, np.int64) and temp == 2:
-                    artrosis = False
 
                 'Epilepsia'
-                temp = dataFrame[headers[21]][i]
-                if isinstance(temp, np.int64) and temp == 1:
+                temp = dataFrame[headers[13]][i]
+                if isinstance(temp, str) and temp == 'EPI':
                     epilepsia = True
-                elif isinstance(temp, np.int64) and temp == 2:
-                    epilepsia = False
 
                 'Tabaquismo'
-                temp = dataFrame[headers[24]][i]
-                if isinstance(temp, np.int64) and temp == 1:
+                temp = dataFrame[headers[18]][i]
+                if isinstance(temp, str) and temp == 'POSITIVO':
                     tabaco = True
-                elif isinstance(temp, np.int64) and temp == 2:
-                    tabaco = False
 
                 'Parkinson'
-                temp = dataFrame[headers[22]][i]
-                if isinstance(temp, np.int64) and temp == 1:
+                temp = dataFrame[headers[17]][i]
+                if isinstance(temp, str) and temp == 'PARKINSON':
                     parkinson = True
-                elif isinstance(temp, np.int64) and temp == 2:
-                    parkinson = False
 
                 'Glaucoma'
 
