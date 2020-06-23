@@ -185,7 +185,6 @@ if __name__ == '__main__':
 
                     # Geocoding
                     bbox = [-72.9017885221082, -39.5096176823395, -72.2996077573355, -39.2148627951642]  # loncoche
-
                     response = geocoder.forward(str(addressNumber) + ', ' + addressStreet, bbox=bbox,
                                                 types=('address',))
 
