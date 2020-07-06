@@ -17,8 +17,8 @@ if __name__ == '__main__':
 
     collection = db['personasContingencia']
 
-    path = os.path.join(Path('/home/ed/Downloads/placeres.xlsx'))
-    dataFrame = pd.read_excel(path, sheet_name='Hoja2')
+    path = os.path.join(Path('placeres.xlsx'))
+    dataFrame = pd.read_excel('placeres.xlsx', sheet_name='Hoja2')
 
     headers = dataFrame.columns
 
@@ -51,47 +51,64 @@ if __name__ == '__main__':
             result = collection.find_one(query)
 
             if result:
+
                 counter += 1
 
                 'Diabetes Mellitus'
                 temp = dataFrame[headers[10]][i]
                 if isinstance(temp, str) and temp == 'DM':
                     diabetes = True
+                else:
+                    diabetes = False
 
                 'Hipertensión Arterial'
                 temp = dataFrame[headers[9]][i]
                 if isinstance(temp, str) and temp == 'HTA':
                     hipertension = True
+                else:
+                    hipertension = False
 
                 'Dislipidemia'
                 temp = dataFrame[headers[11]][i]
                 if isinstance(temp, str) and temp == 'DLP':
                     dislipidemia = True
+                else:
+                    dislipidemia = False
 
                 'Hipotiroidismo'
                 temp = dataFrame[headers[12]][i]
                 if isinstance(temp, str) and temp == 'HIPO':
                     hipotiroidismo = True
+                else:
+                    hipotiroidismo = False
 
                 'Artrosis'
                 temp = dataFrame[headers[15]][i]
                 if isinstance(temp, str) and temp == 'ARTROSIS':
                     artrosis = True
+                else:
+                    artrosis = False
 
                 'Epilepsia'
                 temp = dataFrame[headers[13]][i]
                 if isinstance(temp, str) and temp == 'EPI':
                     epilepsia = True
+                else:
+                    epilepsia = False
 
                 'Tabaquismo'
                 temp = dataFrame[headers[18]][i]
                 if isinstance(temp, str) and temp == 'POSITIVO':
                     tabaco = True
+                else:
+                    tabaco = False
 
                 'Parkinson'
                 temp = dataFrame[headers[17]][i]
                 if isinstance(temp, str) and temp == 'PARKINSON':
                     parkinson = True
+                else:
+                    parkinson = False
 
                 'Glaucoma'
 

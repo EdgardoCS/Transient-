@@ -52,9 +52,13 @@ if __name__ == '__main__':
             temp = dataFrame[headers[11]][i]
             if isinstance(temp, str) and temp == 'HTA':
                 hipertension = True
-            elif isinstance(temp, str) and temp == 'DM':
+            else:
+                hipertension = False
+            if isinstance(temp, str) and temp == 'DM':
                 diabetes = True
-            elif isinstance(temp, str) and 'MIX' in temp:
+            else:
+                diabetes = False
+            if isinstance(temp, str) and 'MIX' in temp:
                 hipertension = True
                 diabetes = True
             else:
@@ -66,14 +70,22 @@ if __name__ == '__main__':
             if isinstance(temp, str):
                 if 'hipo' in temp or 'HIPO' in temp:
                     hipotiroidismo = True
+                else: hipotiroidismo = False
                 if 'DISL' in temp or 'Disl' in temp or 'DLP' in temp:
                     dislipidemia = True
+                else:
+                    dislipidemia = False
                 if 'trosi' in temp or 'trosi' in temp or 'TROSI' in temp:
                     artrosis = True
+                else:
+                    artrosis = False
                 if 'EPI' in temp or 'Epi' in temp:
                     epilepsia = True
+                else: epilepsia = False
                 if 'park' in temp or 'PARK' in temp or 'Park' in temp:
                     parkinson = True
+                else:
+                    parkinson = False
 
             'Tabaquismo'
             temp = dataFrame[headers[10]][i]

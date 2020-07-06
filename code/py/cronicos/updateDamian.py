@@ -68,44 +68,53 @@ if __name__ == '__main__':
                 if isinstance(temp, str):
                     if 'hipo' in temp or 'Hipo' in temp:
                         hipotiroidismo = True
-                    elif 'disl' in temp or 'Disl' in temp or 'dlp' in temp or 'DLP' in temp:
+                    else:
+                        hipotiroidismo = False
+                    if 'disl' in temp or 'Disl' in temp or 'dlp' in temp or 'DLP' in temp:
                         dislipidemia = True
-                    elif 'trosi' in temp or 'trosi' in temp or 'TROSI' in temp:
+                    else:
+                        dislipidemia = False
+                    if 'trosi' in temp or 'trosi' in temp or 'TROSI' in temp:
                         artrosis = True
-                    elif 'epi' in temp or 'Epi' in temp:
+                    else:
+                        artrosis = False
+                    if 'epi' in temp or 'Epi' in temp:
                         epilepsia = True
-                    elif 'park' in temp or 'PARK' in temp or 'Park' in temp:
+                    else:
+                        epilepsia = False
+                    if 'park' in temp or 'PARK' in temp or 'Park' in temp:
                         parkinson = True
+                    else:
+                        parkinson = False
+        'Tabaquismo'
+        temp = dataFrame[headers[28]][i]
+        if isinstance(temp, str) and temp == 'Positivo':
+            tabaco = True
+        elif isinstance(temp, str) and temp == 'Negativo':
+            tabaco = False
 
-                'Tabaquismo'
-                temp = dataFrame[headers[28]][i]
-                if isinstance(temp, str) and temp == 'Positivo':
-                    tabaco = True
-                elif isinstance(temp, str) and temp == 'Negativo':
-                    tabaco = False
+        'Glaucoma'
+        temp = dataFrame[headers[13]][i]
+        if isinstance(temp, str) and temp == 'si':
+            glaucoma = True
+        elif isinstance(temp, str) and temp == 'no':
+            glaucoma = False
 
-                'Glaucoma'
-                temp = dataFrame[headers[13]][i]
-                if isinstance(temp, str) and temp == 'si':
-                    glaucoma = True
-                elif isinstance(temp, str) and temp == 'no':
-                    glaucoma = False
-
-                newValues = {
-                    '$set': {
-                        'diabetes': diabetes,
-                        'hipertension': hipertension,
-                        'dislipidemia': dislipidemia,
-                        'tabaco': tabaco,
-                        'artrosis': artrosis,
-                        'parkinson': parkinson,
-                        'hipotiroidismo': hipotiroidismo,
-                        'epilepsia': epilepsia,
-                        'glaucoma': glaucoma,
-                    }
-                }
-                # print(newValues)
-                print('updating:', counter)
-                # collection.update_one(query, newValues)
+        newValues = {
+            '$set': {
+                'diabetes': diabetes,
+                'hipertension': hipertension,
+                'dislipidemia': dislipidemia,
+                'tabaco': tabaco,
+                'artrosis': artrosis,
+                'parkinson': parkinson,
+                'hipotiroidismo': hipotiroidismo,
+                'epilepsia': epilepsia,
+                'glaucoma': glaucoma,
+            }
+        }
+        # print(newValues)
+        print('updating:', counter)
+        # collection.update_one(query, newValues)
 
 print(counter, 'actualizados, de un total de:', totalCounter)

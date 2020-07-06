@@ -25,15 +25,15 @@ if __name__ == '__main__':
     counter = 0
     totalCounter = 0
 
-    diabetes = None
-    hipertension = None
-    dislipidemia = None
-    tabaco = None
-    artrosis = None
-    parkinson = None
-    hipotiroidismo = None
-    epilepsia = None
-    glaucoma = None
+    diabetes = False
+    hipertension = False
+    dislipidemia = False
+    tabaco = False
+    artrosis = False
+    parkinson = False
+    hipotiroidismo = False
+    epilepsia = False
+    glaucoma = False
 
     for i in range(0, len(dataFrame)):
         temp = dataFrame[headers[3]][i]

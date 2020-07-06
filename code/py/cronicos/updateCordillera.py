@@ -13,12 +13,10 @@ if __name__ == '__main__':
 
     db = client['demo']
 
-    #
-
     collection = db['personasContingencia']
 
-    path = os.path.join(Path('/home/ed/Downloads/cordillera.xlsx'))
-    dataFrame = pd.read_excel(path, sheet_name='Hoja1')
+    # path = os.path.join(Path('/cordillera.xlsx'))
+    dataFrame = pd.read_excel('cordillera.xlsx', sheet_name='Hoja1')
 
     headers = dataFrame.columns
 
@@ -51,35 +49,58 @@ if __name__ == '__main__':
             result = collection.find_one(query)
 
             if result:
-                counter += 1
 
                 'PATOLOGIAS '
                 temp = dataFrame[headers[10]][i]
                 if isinstance(temp, str):
                     if temp == 'HIPO':
                         hipotiroidismo = True
+                    else:
+                        hipotiroidismo = False
+
                     if temp == 'DISLIPIDEMIA':
                         dislipidemia = True
+                    else:
+                        dislipidemia = False
+
                     if temp == 'HTA':
                         hipertension = True
+                    else:
+                        hipertension = False
+
                     if temp == 'DM':
                         diabetes = True
+                    else:
+                        diabetes = False
+
                     if temp == 'MIXTO':
                         diabetes = True
                         hipertension = True
+                    else:
+                        diabetes = False
+                        hipertension = False
+
                     if temp == 'ARTROSIS':
                         artrosis = True
+                    else:
+                        artrosis = False
+
                     if temp == 'EPI':
                         epilepsia = True
+                    else:
+                        epilepsia = False
+
                     if temp == 'PARKINSON':
                         parkinson = True
+                    else:
+                        parkinson = False
 
                 'Tabaquismo'
                 temp = dataFrame[headers[21]][i]
                 if isinstance(temp, str) and temp == 'SI':
                     tabaco = True
                 elif isinstance(temp, str) and temp == 'NO':
-                    tabaco = True
+                    tabaco = False
 
                 'Glaucoma'
 

@@ -14,11 +14,10 @@ if __name__ == '__main__':
     db = client['demo']
 
     #
-
     collection = db['personasContingencia']
 
-    path = os.path.join(Path('lasCanas.xls'))
-    dataFrame = pd.read_excel(path, sheet_name='Sheet1')
+    # path = os.path.join(Path('lasCanas.xls'))
+    dataFrame = pd.read_excel('lasCanas.xls', sheet_name='Sheet1')
 
     headers = dataFrame.columns
 
@@ -57,38 +56,56 @@ if __name__ == '__main__':
                 temp = dataFrame[headers[1]][i]
                 if isinstance(temp, str) and temp == 'dm':
                     diabetes = True
+                else:
+                    diabetes = False
 
                 'Hipertensión Arterial'
                 if isinstance(temp, str) and temp == 'hta':
                     hipertension = True
+                else:
+                    hipertension = False
 
                 'Dislipidemia'
                 if isinstance(temp, str) and temp == 'disli':
                     dislipidemia = True
+                else:
+                    dislipidemia = False
 
                 'Hipotiroidismo'
                 if isinstance(temp, str) and temp == 'hipo':
                     hipotiroidismo = True
+                else:
+                    hipotiroidismo = False
 
                 'Artrosis'
                 if isinstance(temp, str) and temp == 'artrosis':
                     artrosis = True
+                else:
+                    artrosis = False
 
                 'Epilepsia'
                 if isinstance(temp, str) and temp == 'epi':
                     epilepsia = True
+                else:
+                    epilepsia = False
 
                 'Tabaquismo'
                 if isinstance(temp, str) and temp == 'tabaco':
                     tabaco = True
+                else:
+                    tabaco = False
 
                 'Parkinson'
                 if isinstance(temp, str) and temp == 'park':
                     parkinson = True
+                else:
+                    parkinson = False
 
                 'Glaucoma'
                 if isinstance(temp, str) and temp == 'glau':
-                    tabaco = True
+                    glaucoma = True
+                else:
+                    glaucoma = False
 
                 newValues = {
                     '$set': {
